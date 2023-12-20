@@ -12,27 +12,27 @@ public class Nummber_to_move_terminal {
 
   //Erste Reihe ----------------------------------------------
   //----------------------------------------------------------
-  if (board[1][1] == "" ) {
+  if (board[0][0] == "" ) {
 
-    x = board[1][2];
-    y = board[2][1];
+    x = board[0][1];
+    y = board[1][0];
 
     nummern = new String[] {x, y};
     return nummern;
   };
 
-  if (board[1][2] == "") {
-    x = board[1][1];
-    y = board[1][3];
-    z = board[2][2];
+  if (board[0][1] == "") {
+    x = board[0][0];
+    y = board[0][2];
+    z = board[1][1];
     nummern = new String[] {x, y, z};
     return nummern;
   };
 
-  if (board[1][3] == "") {
+  if (board[0][2] == "") {
 
-    x = board[1][2];
-    y = board[2][3];
+    x = board[0][1];
+    y = board[1][2];
 
     nummern = new String[] {x, y};
     return nummern;
@@ -41,54 +41,54 @@ public class Nummber_to_move_terminal {
   //Zweite Reihe ---------------------------------------------
   //----------------------------------------------------------
 
-  if (board[2][1] == "") {
-    x = board[1][1];
-    y = board[2][2];
-    z = board[3][1];
+  if (board[1][0] == "") {
+    x = board[0][0];
+    y = board[1][1];
+    z = board[2][0];
     nummern = new String[] {x, y, z};
     return nummern;
   };
 
-  if (board[2][2] == "") {
-    x = board[1][2];
-    y = board[2][1];
-    z = board[2][3];
-    w = board[3][2];
+  if (board[1][1] == "") {
+    x = board[0][1];
+    y = board[1][0];
+    z = board[1][2];
+    w = board[2][1];
     nummern = new String[] {x, y, z, w};
     return nummern;
   };
 
-   if (board[2][3] == "") {
-    x = board[1][3];
-    y = board[2][2];
-    z = board[3][3];
+   if (board[1][2] == "") {
+    x = board[0][2];
+    y = board[1][1];
+    z = board[2][2];
     nummern = new String[] {x, y, z};
     return nummern;
   };
 
   //Dritte Reihe ---------------------------------------------
   //----------------------------------------------------------
-if (board[3][1] == "") {
+if (board[2][0] == "") {
 
-    x = board[2][1];
-    y = board[3][2];
+    x = board[1][0];
+    y = board[2][1];
 
     nummern = new String[] {x, y};
     return nummern;
   };
 
-  if (board[3][2] == "") {
-    x = board[3][1];
-    y = board[3][3];
-    z = board[2][2];
+  if (board[2][1] == "") {
+    x = board[2][0];
+    y = board[2][2];
+    z = board[1][1];
     nummern = new String[] {x, y, z};
     return nummern;
   };
 
-  if (board[3][3] == "") {
+  if (board[2][2] == "") {
 
-    x = board[3][2];
-    y = board[2][3];
+    x = board[2][1];
+    y = board[1][2];
 
     nummern = new String[] {x, y};
     return nummern;
