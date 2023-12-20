@@ -15,6 +15,7 @@ public class schiebespiel {
     // Anzahl der gespielten Runden
     private static int gespielteRunden;
 
+    // Hier wird das Spiel aufgeführt
     public static void main(String[] args) {
         initialisiereSpielfeld();
         zeigeSpielfeld();
@@ -122,5 +123,6 @@ public class schiebespiel {
             }
         }
         return true;
+        
     }
 }
