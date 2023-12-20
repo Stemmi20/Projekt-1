@@ -1,11 +1,15 @@
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class Check_nummer_moveable {
 public static void moveable(String[] args) {
+    String[] nummern = Nummber_to_move_terminal.getNumbers(board);
         Scanner eingabe = new Scanner(System.in);
         String userInput = eingabe.nextLine();
-        for (int i =0; i < nummern.length; i++){
 
+        
+        for (int i =0; i < nummern.length; i++){
+            
         }
 
 

@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Random;
 
 public class Generatefield {
-    public static void main(String[] args) {
+    public static void generatefield(String[] args) {
 
         String[][] board = { { "1", "4", "7" }, { "2", "6", "5" }, { "3", "8", "" }, };
 
@@ -24,9 +24,4 @@ public class Generatefield {
             System.out.println("\n");
         }
     }
-
-    public String[] getBoard() {
-        return getBoard();
-    }
-
 }
